@@ -1,3 +1,136 @@
-.martrox{
-font-family: 'Bebas Neue', cursive;
+body{
+    background-image: url("img/bg.png");
+    background-size: auto;
+    background-size: 27em;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+    padding-top: 13em;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center; 
+    margin-top: -2em;
+    font-size: 5em;
+    padding-top: 2em;
+    color: #FFF2D7;
+}
+.projects{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.projects a{
+    color: #FFF2D7;
+    text-decoration: none;
+}
+.about{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.about a{
+    color: #FFF2D7;
+    text-decoration: none;
+}
+.sectionindex{
+    position: relative;
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: -2em;
+}
+.line1{
+    padding: 1em;
+}
+.ufo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    object-fit: inherit;
+    padding-top: 10em;
+}
+.contact{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 0%;
+    margin-top: -3rem;
+    padding-top: 4rem;
+}
+.mail{
+    font-family: 'Agency FB', arial;
+    position:relative;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -8rem;
+    color: #FFF2D7;
+}
+.mailbox{
+    margin-top: -2rem;
+}
+.footer{
+    position: relative;
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: -2em;
+}
+.footerlinks{
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+.ig{
+    width: auto;
+    height: 80%;
+    padding-top: 18px;
+}
+.fb{
+    display: block;
+    margin-top: 1rem;
+    width: auto;
+    height: 80%;
+    padding-top: 3px;
+}
+.li{
+    width: auto;
+    height: 80%;
+    padding-top: 18px;
+}
+@media all and (min-width: 600px) {
+    body{
+        background-image: url("img/bglarge.png");
+        background-size: auto;
+        background-size: 120em;
+    }
+    .logo{
+        width: 5%;
+    }
+    .ufo{
+        width: 10%;
+        display:none;
+    }
+    .contact{
+        font-size: 38px;
+        position: relative;
+        left: 0%;
+        padding-top: 5em;
+
+    }
+    .mail{
+        position: relative;
+        margin-top: -6em;
+    }
+
 }
