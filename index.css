@@ -14,6 +14,8 @@ h1{
     font-family: 'Bebas Neue', cursive;
     text-align: center; 
     margin-top: -2em;
+    margin-left: -6px;
+    margin-right: auto;
     font-size: 5em;
     padding-top: 2em;
     color: #FFF2D7;
@@ -52,6 +54,12 @@ h1{
 }
 .line1{
     padding: 1em;
+}
+.bigline1{
+    display: none;
+}
+.bigline2{
+    display: none;
 }
 .ufo{
     display: block;
@@ -132,5 +140,51 @@ h1{
         position: relative;
         margin-top: -6em;
     }
+    .line1{
+        display:none;
+    }
+    .line2{
+        display:none;
+    }
+    .bigline1{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        color: #FFF2D7;
+        margin-top: 1.5em;
+    }
+    .projects{
+        padding-top: 1.2em;
+        z-index: +1;
+    }
+    .bigline2{
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        color: #FFF2D7;
+        margin-top: 1em;
+    }
+    .about{
+        padding-top: 1.7rem;
+        z-index: +1;
+    }
+    .contact{
+        padding-top: 9rem;
+    }
+    h1{
+        padding-left: 1.5rem;
+        padding-top: 250px;
+        font-size: 100px;
+    }
+    .logo{
+        align-self: center;
+        padding-left: 1rem;
+        padding-top: 300px;
+        margin-left: auto;
+    }
+    .footerlinks{
+        margin-right: 7px;
+    }
+
 
 }

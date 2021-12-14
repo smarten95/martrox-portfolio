@@ -1,0 +1,194 @@
+body{
+    background-image: url("img/bg.png");
+    overflow-x: hidden;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+    padding-top: 1em;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center; 
+    margin-top: -2em;
+    font-size: 5em;
+    padding-top: 2em;
+    color: #FFF2D7;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+}
+.videos{
+    font-size: 2em;
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.webdesigns{
+    font-size: 2em;
+    position: absolute;
+    padding-top: 11rem;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.music{
+    font-size: 2em;
+    position: absolute;
+    padding-top: 22rem;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.videos a{
+    color: #FFF2D7;
+    text-decoration: none;
+}
+.webdesigns a{
+    color: #FFF2D7;
+    text-decoration: none;
+}
+.music a{
+    color: #FFF2D7;
+    text-decoration: none;
+}
+.planet1{
+    display: none;
+}
+.astronauts{
+    display: none;
+}
+.planet2{
+    display: none;
+}
+
+.ufo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    object-fit: inherit;
+    padding-top: 21em;
+}
+.contact{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 0%;
+    margin-top: -3rem;
+    padding-top: 4rem;
+}
+.mail{
+    font-family: 'Agency FB', arial;
+    position:relative;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -8rem;
+    color: #FFF2D7;
+}
+.mailbox{
+    margin-top: -2rem;
+}
+.footer{
+    position: relative;
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: -2em;
+}
+.footerlinks{
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+.ig{
+    width: auto;
+    height: 80%;
+    padding-top: 18px;
+}
+.fb{
+    display: block;
+    margin-top: 1rem;
+    width: auto;
+    height: 80%;
+    padding-top: 3px;
+}
+.li{
+    width: auto;
+    height: 80%;
+    padding-top: 18px;
+}
+
+@media all and (min-width: 600px) {
+    body{
+        background-image: url("img/projectbg.png");
+        background-repeat: no-repeat;
+    }
+    .logo{
+        width: 5%;
+    }
+    .ufo{
+        width: 10%;
+        display:none;
+    }
+    .contact{
+        font-size: 38px;
+        position: relative;
+        left: 0%;
+        padding-top: 5em;
+
+    }
+    .mail{
+        position: relative;
+        margin-top: -6em;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        vertical-align: middle;
+    }
+    .planet1{
+        display: inline-block;
+        position: relative;
+        margin-right: -10rem;
+    }
+    .astronauts{
+        display: inline-block;
+        position: relative;
+        padding-right: 4rem;
+    }
+    .planet2{
+        display: inline-block;
+        position: relative;
+        margin-left: -12rem;
+    }
+    .videos{
+        color: #FFF2D7;
+        font-size: 5em;
+        position: absolute;
+        top: 51%;
+        left: 18%;
+        transform: translate(-50%, -50%);
+    }
+    .webdesigns{
+        color: #FFF2D7;
+        font-size: 5em;
+        position: absolute;
+        top: 51%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 11rem;
+    }
+    .music{
+        color: #FFF2D7;
+        font-size: 5em;
+        position: absolute;
+        padding-right: 3rem;
+        top: 51%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 22rem;
+    }
+}
