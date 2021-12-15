@@ -135,6 +135,7 @@ p{
 }
 
 /* ---------- Videos Section ---------- */
+
 .musicon{
     position: relative;
     top: 70rem;
@@ -304,6 +305,7 @@ footer{
     }
 
 /*--------Web section MQ--------*/
+
     .webicon{
         position: relative;
         justify-items: center;
@@ -326,6 +328,7 @@ footer{
     }
 
 /*--------Video section MQ--------*/
+
     .vidicon{
         top:0%;
         left: 0%;
@@ -403,6 +406,7 @@ footer{
     }
             
 /*-------Footer Styling MQ--------*/
+
     footer{
         margin: 0%;
     }
