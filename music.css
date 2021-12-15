@@ -26,77 +26,68 @@ h1{
     z-index: +1;
     margin-top: -2.8rem;
 }
-.blines{
-    position: relative;
-    z-index: -1;
-}
 
 /*-------Content Styling--------*/
 
 h2{
     font-family: 'Bebas Neue', cursive;
 }
-.textboxes{
+.scplayer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    width:80%;
+    height:450px;
+}
+.infotext{
+    font-family: 'Bebas Neue', cursive;
     position: relative;
     text-align: center;
     color: #FFF2D7;
-    margin-top: 1em;
-}
-.videos{
-    font-size: 2em;
-    position: absolute;
-    left: 49%;
+    font-size: 1.5em;
+    top: -5rem;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
     transform: translate(-50%, -50%);
     color: #FFF2D7;
 }
-.webdesigns{
-    font-size: 2em;
-    position: absolute;
-    top: 2.5em;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    color: #FFF2D7;
-}
-.music{
-    font-size: 2em;
-    position: absolute;
-    top: 9.9rem;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    color: #FFF2D7;
-}
-.linev{
+.ytlogo{
+    display: block;
+    width:62px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    top: 0.2rem;
-    z-index: -1;
+    align-items: center;
+    right: 7.1rem;
+    top: 10.2rem;
 }
-.linew{
+.splogo{
+    display: block;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    top: 1.9rem;
-    z-index: -1;
+    align-items: center;
+    top: 6.5rem;
 }
-.linem{
+.sclogo{
+    display: block;
+    width: 48px;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-    top: 3.5rem;
-    z-index: -1;
+    align-items: center;
+    top: 3.4rem;
+    left:6.8rem;
 }
+
+
 /*-------Links--------*/
 
-.videos a{
-    color: #FFF2D7;
-    text-decoration: none;
-    z-index: +1;
-}
-.webdesigns a{
-    color: #FFF2D7;
-    text-decoration: none;
-    z-index: +1;
-}
-.music a{
-    color: #FFF2D7;
-    text-decoration: none;
-    z-index: +1;
-}
+
 
 /*-------Footer Styling--------*/
 
@@ -106,15 +97,16 @@ h2{
     margin-right: auto;
     width: 40%;
     object-fit: inherit;
-    padding-top: 21em;
+    padding-top: 7em;
 }
 .contact{
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
     position: relative;
     left: 0%;
-    margin-top: -3rem;
-    padding-top: 4rem;
+    bottom: 1rem;
+    z-index: -1;
+
 }
 .mail{
     font-family: 'Agency FB', arial;
@@ -131,12 +123,15 @@ h2{
     position: relative;
     text-align: center;
     color: #FFF2D7;
-    margin-top: -2em;
+    margin:0%;
+    padding:0%;
+    z-index: -1;
 }
 .footerlinks{
     display: flex;
     justify-content: space-evenly;
     vertical-align: middle;
+    padding-bottom: 1rem;
 }
 .ig{
     width: auto;
@@ -158,28 +153,11 @@ h2{
 
 /*-------Large Text--------*/
 
-.videoslarge{
-    display: none;
-}
-.webdesignslarge{
-    display: none;
-}
-.musiclarge{
-    display: none;
-}
+
 
 /*-------Large Images--------*/
 
 .largelines{
-    display: none;
-}
-.planet1{
-    display: none;
-}
-.astronauts{
-    display: none;
-}
-.planet2{
     display: none;
 }
 
@@ -220,24 +198,20 @@ h2{
     .blines{
         display: none;
     }
-    .planet1{
-        display: inline-block;
-        position: relative;
-        margin-right: -8rem;
-        margin-left: -2rem;
-        bottom: 2rem;
+    .infotext{
+        text-align: center;
+        font-size: 3rem;
+        left: 58.8rem;
+        top: -8rem;
     }
-    .astronauts{
-        display: inline-block;
-        position: relative;
-        padding-right: 4rem;
-        bottom: 2rem;
+    .infobar{
+        padding-right: 1rem;
     }
-    .planet2{
-        display: inline-block;
-        position: relative;
-        margin-left: -11rem;
-        bottom: 0.5rem;
+    .ytlogo{
+        right: 12rem;
+    }
+    .sclogo{
+        left: 12rem;
     }
             
 /*-------Text Styling MQ--------*/
@@ -245,74 +219,10 @@ h2{
     .h1top{
         font-size: 350%;
     }
-    .videoslarge{
-        position: absolute;
-        display: inline-block;
-        color: #FFF2D7;
-        font-size: 5em;
-        text-align: center;
-        bottom: 7rem;
-        left: 15%;
-        transform: translate(-50%, -50%);
-    }
-    .webdesignslarge{
-        position: absolute;
-        display: inline-block;
-        color: #FFF2D7;
-        font-size: 5em;
-        text-align: center;
-        bottom: 7rem;
-        left: 49.7%;
-        transform: translate(-50%, -50%);
-    }
-    .musiclarge{
-        position: absolute;
-        display: inline-block;
-        color: #FFF2D7;
-        font-size: 5em;
-        text-align: center;
-        bottom: 7rem;
-        left: 100rem;
-        transform: translate(-50%, -50%);
-    }
-    .videoslarge a{
-        color: #FFF2D7;
-        text-decoration: none;
-    }
-    .webdesignslarge a{
-        color: #FFF2D7;
-        text-decoration: none;
-    }
-    .musiclarge a{
-        color: #FFF2D7;
-        text-decoration: none;
-    }
-    .largecontent{
-        position: relative;
-        text-align: center;
-    }
             
 /*-------Content turned off MQ--------*/
 
-    .contentlines{
-        display: none;
-    }
-    .linem{
-        display: none;
-    }
-    .linev{
-        display: none;
-    }
-    .linew{
-        display: none;
-    }
-    .videos{
-        display: none;
-    }
-    .webdesigns{
-        display: none;
-    }
-    .music{
+    .blines{
         display: none;
     }
             
@@ -324,9 +234,8 @@ h2{
     .contact{
         font-size: 38px;
         position: relative;
-        left: -10px;
-        padding-top: 5em;
-
+        left: -9px;
+        padding-top: 2rem;
     }
     .mail{
         position: relative;

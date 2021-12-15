@@ -184,9 +184,6 @@ h1{
                     
 /*-------Footer Styling MQ--------*/
 
-    .contact{
-        padding-top: 9rem;
-    }
     .ufo{
         width: 10%;
         display:none;
@@ -195,13 +192,15 @@ h1{
         font-size: 38px;
         position: relative;
         left: 0%;
-        padding-top: 5em;
+        padding-top: 4em;
     }
     .mail{
         position: relative;
         margin-top: -6em;
     }
     .footerlinks{
+        margin: 0%;
         margin-right: 7px;
+
     }
 }
