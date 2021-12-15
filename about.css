@@ -1,0 +1,430 @@
+body{
+    background-image: url("img/aboutbg.png");
+    overflow-x: hidden;
+}
+
+/*-------Top Styling--------*/
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+    padding-top: 1em;
+    left: 2rem;
+}
+.logo a{
+    z-index: +1;
+}
+.toptext{
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: 1em;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.h1top{
+    font-size: 240%;
+    color: #FFF2D7;
+    z-index: +1;
+    margin-top: -2.8rem;
+}
+.blines{
+    position: relative;
+    z-index: -1;
+}
+
+/*-------Content Styling--------*/
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+}
+p{
+    font-family: 'Agency FB', arial;
+}
+
+/* ---------- Me Section ---------- */
+
+.marten{
+    position: relative;
+    top: 10rem;
+    left: 13rem;
+}
+.me {
+    font-size: 2em;
+    position: absolute;
+    top: 4rem;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.metext{
+    font-size: 1rem;
+    position: absolute;
+    top: 12rem;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.mesection{
+    position: relative;
+    text-align: left;
+    color: #FFF2D7;
+    margin-top: 1em;
+}
+
+/* ---------- Web Section ---------- */
+
+.webicon{
+    position: relative;
+    top: 14.8rem;
+    left: 19rem;
+}
+.web{
+    font-size: 2em;
+    position: absolute;
+    top: 14rem;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.webtext{
+    font-size: 1rem;
+    position: absolute;
+    top: 28rem;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.websection{
+    position: relative;
+    text-align: left;
+    color: #FFF2D7;
+    margin-top: 1em;
+}
+
+/* ---------- Videos Section ---------- */
+
+.vidicon{
+    position: relative;
+    top: 46rem;
+    left: 19rem;
+}
+.videos{
+    font-size: 2em;
+    position: absolute;
+    top: 45rem;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.videostext{
+    font-size: 1rem;
+    position: absolute;
+    top: 57rem;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.videossection{
+    position: relative;
+    text-align: left;
+    color: #FFF2D7;
+    margin-top: 1em;
+}
+
+/* ---------- Videos Section ---------- */
+.musicon{
+    position: relative;
+    top: 70rem;
+    left: 19rem;
+}
+.musicsection{
+    position: relative;
+    text-align: left;
+    color: #FFF2D7;
+    margin-top: 1em;
+}
+.music{
+    font-size: 2em;
+    position: absolute;
+    top: 69rem;
+    left: 13.9%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.musictext{
+    font-size: 1rem;
+    position: absolute;
+    top: 77rem;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+
+/*-------Footer Styling--------*/
+
+footer{
+    margin-top: 85rem;
+}
+.ufo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    object-fit: inherit;
+}
+.contact{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 0%;
+    margin-top: -3rem;
+    padding-top: 4rem;
+}
+.mail{
+    font-family: 'Agency FB', arial;
+    position:relative;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -8rem;
+    color: #FFF2D7;
+}
+.mailbox{
+    margin-top: -2rem;
+}
+.footer{
+    position: relative;
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: -2em;
+}
+.footerlinks{
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+.ig{
+    width: auto;
+    height: 80%;
+    padding-top: 7px;
+
+}
+.fb{
+    display: block;
+    width: auto;
+    height: 80%;
+    padding-top: 9px;
+}
+.li{
+    width: auto;
+    height: 80%;
+    padding-top: 7px;
+}
+
+/*-------Large Images--------*/
+
+.largelines{
+    display: none;
+}
+
+/*---------------------Media Query---------------------*/
+
+@media all and (min-width: 600px) {
+    body{
+        background-image: url("img/aboutbgl1.png");
+        background-repeat: no-repeat;
+    }
+
+/*-------Top Styling MQ--------*/
+
+    .logo{
+        position: relative;
+        justify-items: center;
+        justify-content: center;
+        width: 5%;
+        padding-right: 44px;
+    }
+    h1{
+        padding-left: 15px;
+    }
+    .h1top{
+        padding-top: 5rem;
+    }
+    .largelines{
+        display: inline-block;
+        position: relative;
+        top: 7.3rem;
+        z-index: -1;
+    }
+        
+/*-------Grid styling MQ--------*/
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto 500px auto;
+        grid-template-rows: auto 10px auto;
+        width: 90vw;
+        height: 90vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(255, 0, 0, 0);
+    }
+
+    /*--------Me section MQ--------*/
+
+    .mesection{
+        border-left: 4px solid rgb(99, 6, 6);
+        border-right: 4px solid rgb(99, 6, 6);
+        grid-column-start:2;
+        grid-column-end:3;
+        grid-row-start:1;
+        grid-row-end:3;
+    }
+    .marten{
+        position: relative;
+        justify-items: center;
+        top:0%;
+        left: 0%;
+        top:14rem;
+        left:20rem;
+    }
+    
+    .me{
+        padding:0%;
+        top:0%;
+        top:9rem;
+        left:3.2rem;
+    }
+    .metext{
+        padding:0%;
+        bottom:18rem;
+        right:1.4rem;
+    }
+
+/*--------Web section MQ--------*/
+    .webicon{
+        position: relative;
+        justify-items: center;
+        top:0%;
+        left: 0%;
+        left: 21rem;
+        top: 15.1rem;
+        bottom:100rem;
+    }
+    .web{
+        padding:0%;
+        margin:0%;
+        left: 7.4rem;
+        top: 16rem;
+    }
+    .webtext{
+        padding:0%;
+        top:26rem;
+        right:3rem;
+    }
+
+/*--------Video section MQ--------*/
+    .vidicon{
+        top:0%;
+        left: 0%;
+        justify-items: center;
+        left: 26rem;
+        top:15.4rem;
+    }
+    .videos{
+        top:0%;
+        padding:0%;
+        margin:0%;
+        top: 16rem;
+        left: 13.2rem;
+    }
+    .videostext{
+        padding:0%;
+        margin:0%;
+        top: 25rem;
+        left: 20.2rem;
+    }
+
+/*--------Music section MQ--------*/
+
+    .musicon{
+        position: relative;
+        justify-items: center;
+        top:0%;
+        left: 0%;
+        left:18rem;
+        top:4rem;
+    }
+    .musicsection{
+        position:relative;
+        padding:0%;
+        margin:0%;
+        top:0%;
+        left:0%;
+        border-top:4px solid rgb(104, 10, 10);
+        border-left:4px solid rgb(104, 10, 10);
+        border-right:4px solid rgb(104, 10, 10);
+        grid-column-start:2;
+        grid-column-end:3;
+        grid-row-start:3;
+        grid-row-end:4;
+    }
+    .music{
+        position: relative;
+        justify-items: center;
+        padding:0%;
+        margin:0%;
+        top:0%;
+        top:3rem;
+        left: 17.1rem;
+    }
+    .musictext{
+        padding:0%;
+        margin:0%;
+        top:0%;
+        top: 10rem;
+    }
+            
+/*-------Text Styling MQ--------*/
+
+    .h1top{
+        font-size: 350%;
+    }
+            
+/*-------Content turned off MQ--------*/
+
+    .blines {
+        display: none;
+    }
+    .ufo{
+        display:none;
+    }
+            
+/*-------Footer Styling MQ--------*/
+    footer{
+        margin: 0%;
+    }
+    .footer{
+        bottom: 3rem;
+    }
+    .footerlinks{
+        padding-bottom:0rem;
+    }
+    .contact{
+        font-size: 38px;
+        position: relative;
+        left: -10px;
+        padding-top: 3em;
+        z-index: -1;
+    }
+    .mail{
+        position: relative;
+        margin-top: -6em;
+        left: -10px;
+    }
+    .ig{
+        margin-left: -1.5rem;
+    }
+}
