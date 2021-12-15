@@ -3,6 +3,9 @@ body{
     background-size: auto;
     background-size: 27em;
 }
+        
+/*-------Top Styling--------*/
+
 .logo{
     display: block;
     margin-left: auto;
@@ -20,6 +23,9 @@ h1{
     padding-top: 2em;
     color: #FFF2D7;
 }
+        
+/*-------Content Styling--------*/
+
 .projects{
     font-family: 'Bebas Neue', cursive;
     font-size: 2em;
@@ -61,6 +67,9 @@ h1{
 .bigline2{
     display: none;
 }
+        
+/*-------Footer Styling--------*/
+
 .ufo{
     display: block;
     margin-left: auto;
@@ -116,30 +125,33 @@ h1{
     height: 80%;
     padding-top: 18px;
 }
+        
+/*---------------------Media Query---------------------*/
+
 @media all and (min-width: 600px) {
     body{
         background-image: url("img/bglarge.png");
         background-size: auto;
         background-size: 120em;
     }
+            
+/*-------Top Styling MQ--------*/
+
     .logo{
         width: 5%;
+        align-self: center;
+        padding-left: 1rem;
+        padding-top: 300px;
+        margin-left: auto;
     }
-    .ufo{
-        width: 10%;
-        display:none;
+    h1{
+        padding-left: 1.5rem;
+        padding-top: 250px;
+        font-size: 100px;
     }
-    .contact{
-        font-size: 38px;
-        position: relative;
-        left: 0%;
-        padding-top: 5em;
+                
+/*-------Content Styling MQ--------*/
 
-    }
-    .mail{
-        position: relative;
-        margin-top: -6em;
-    }
     .line1{
         display:none;
     }
@@ -168,23 +180,27 @@ h1{
         padding-top: 1.7rem;
         z-index: +1;
     }
+                    
+/*-------Footer Styling MQ--------*/
+
     .contact{
         padding-top: 9rem;
     }
-    h1{
-        padding-left: 1.5rem;
-        padding-top: 250px;
-        font-size: 100px;
+    .ufo{
+        width: 10%;
+        display:none;
     }
-    .logo{
-        align-self: center;
-        padding-left: 1rem;
-        padding-top: 300px;
-        margin-left: auto;
+    .contact{
+        font-size: 38px;
+        position: relative;
+        left: 0%;
+        padding-top: 5em;
+    }
+    .mail{
+        position: relative;
+        margin-top: -6em;
     }
     .footerlinks{
         margin-right: 7px;
     }
-
-
 }

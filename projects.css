@@ -2,6 +2,9 @@ body{
     background-image: url("img/bg.png");
     overflow-x: hidden;
 }
+
+/*-------Top Styling--------*/
+
 .logo{
     display: block;
     margin-left: auto;
@@ -9,21 +12,35 @@ body{
     width: 18%;
     padding-top: 1em;
 }
+.toptext{
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: 1em;
+}
 h1{
     font-family: 'Bebas Neue', cursive;
-    text-align: center; 
-    margin-top: -2em;
-    font-size: 5em;
-    padding-top: 2em;
-    color: #FFF2D7;
 }
+.h1top{
+    font-size: 240%;
+    color: #FFF2D7;
+    z-index: +1;
+    margin-top: -2.8rem;
+}
+.blines{
+    position: relative;
+    z-index: -1;
+}
+
+/*-------Content Styling--------*/
+
 h2{
     font-family: 'Bebas Neue', cursive;
 }
-.contentlines{
-    position: absolute;
-    padding-top: 3px;
-    padding-left: 17px;
+.textboxes{
+    position: relative;
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: 1em;
 }
 .videos{
     font-size: 2em;
@@ -35,7 +52,7 @@ h2{
 .webdesigns{
     font-size: 2em;
     position: absolute;
-    padding-top: 11rem;
+    top: 2.5em;
     left: 49%;
     transform: translate(-50%, -50%);
     color: #FFF2D7;
@@ -43,32 +60,45 @@ h2{
 .music{
     font-size: 2em;
     position: absolute;
-    padding-top: 21.5rem;
+    top: 9.9rem;
     left: 49%;
     transform: translate(-50%, -50%);
     color: #FFF2D7;
 }
+.linev{
+    position: relative;
+    top: 0.2rem;
+    z-index: -1;
+}
+.linew{
+    position: relative;
+    top: 1.9rem;
+    z-index: -1;
+}
+.linem{
+    position: relative;
+    top: 3.5rem;
+    z-index: -1;
+}
+/*-------Links--------*/
+
 .videos a{
     color: #FFF2D7;
     text-decoration: none;
+    z-index: +1;
 }
 .webdesigns a{
     color: #FFF2D7;
     text-decoration: none;
+    z-index: +1;
 }
 .music a{
     color: #FFF2D7;
     text-decoration: none;
+    z-index: +1;
 }
-.planet1{
-    display: none;
-}
-.astronauts{
-    display: none;
-}
-.planet2{
-    display: none;
-}
+
+/*-------Footer Styling--------*/
 
 .ufo{
     display: block;
@@ -126,11 +156,46 @@ h2{
     padding-top: 18px;
 }
 
+/*-------Large Text--------*/
+
+.videoslarge{
+    display: none;
+}
+.webdesignslarge{
+    display: none;
+}
+.musiclarge{
+    display: none;
+}
+
+/*-------Large Images--------*/
+
+.largelines{
+    display: none;
+}
+.holines{
+    display: none;
+}
+.planet1{
+    display: none;
+}
+.astronauts{
+    display: none;
+}
+.planet2{
+    display: none;
+}
+
+/*---------------------Media Query---------------------*/
+
 @media all and (min-width: 600px) {
     body{
         background-image: url("img/projectbg.png");
         background-repeat: no-repeat;
     }
+    
+/*-------Top Styling MQ--------*/
+
     .logo{
         width: 5%;
         padding-left: 13px;
@@ -138,25 +203,25 @@ h2{
     h1{
             padding-left: 15px;
     }
-    .ufo{
-        width: 10%;
-        display:none;
+    .h1top{
+        padding-top: 5rem;
     }
-    .contact{
-        font-size: 38px;
+    .largelines{
+        display: inline-block;
         position: relative;
-        left: 0%;
-        padding-top: 5em;
+        top: 7.3rem;
+        z-index: -1;
+    }
+        
+/*-------Content Styling MQ--------*/
 
-    }
-    .mail{
-        position: relative;
-        margin-top: -6em;
-    }
-    .content{
+    .largecontent{
         display: flex;
         justify-content: space-around;
         vertical-align: middle;
+    }
+    .blines{
+        display: none;
     }
     .planet1{
         display: inline-block;
@@ -174,34 +239,93 @@ h2{
         margin-left: -12rem;
         margin-top: 2rem;
     }
-    .videos{
+            
+/*-------Text Styling MQ--------*/
+
+    .h1top{
+        font-size: 350%;
+    }
+    .videoslarge{
+        position: absolute;
+        display: inline-block;
         color: #FFF2D7;
         font-size: 5em;
-        position: absolute;
-        top: 51%;
+        text-align: center;
+        bottom: 7rem;
         left: 18%;
         transform: translate(-50%, -50%);
     }
-    .webdesigns{
+    .webdesignslarge{
+        position: absolute;
+        display: inline-block;
         color: #FFF2D7;
         font-size: 5em;
-        position: absolute;
-        top: 51%;
+        text-align: center;
+        bottom: 7rem;
         left: 50%;
         transform: translate(-50%, -50%);
-        padding-bottom: 11rem;
     }
-    .music{
+    .musiclarge{
+        position: absolute;
+        display: inline-block;
         color: #FFF2D7;
         font-size: 5em;
-        position: absolute;
-        padding-right: 3rem;
-        top: 51%;
-        left: 85%;
+        text-align: center;
+        bottom: 7rem;
+        left: 100rem;
         transform: translate(-50%, -50%);
-        padding-bottom: 21.5rem;
     }
+    .videoslarge a{
+        color: #FFF2D7;
+        text-decoration: none;
+    }
+    .webdesignslarge a{
+        color: #FFF2D7;
+        text-decoration: none;
+    }
+    .musiclarge a{
+        color: #FFF2D7;
+        text-decoration: none;
+    }
+            
+/*-------Content turned off MQ--------*/
+
     .contentlines{
         display: none;
+    }
+    .linem{
+        display: none;
+    }
+    .linev{
+        display: none;
+    }
+    .linew{
+        display: none;
+    }
+    .videos{
+        display: none;
+    }
+    .webdesigns{
+        display: none;
+    }
+    .music{
+        display: none;
+    }
+            
+/*-------Footer Styling MQ--------*/
+
+    .ufo{
+        display:none;
+    }
+    .contact{
+        font-size: 38px;
+        position: relative;
+        left: 0%;
+        padding-top: 5em;
+
+    }
+    .mail{
+        position: relative;
+        margin-top: -6em;
     }
 }
