@@ -1,0 +1,348 @@
+body{
+    background-image: url("img/bg.png");
+    overflow-x: hidden;
+}
+
+/*-------Top Styling--------*/
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18%;
+    padding-top: 1em;
+}
+.toptext{
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: 1em;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.h1top{
+    font-size: 240%;
+    color: #FFF2D7;
+    z-index: +1;
+    margin-top: -2.8rem;
+}
+.blines{
+    position: relative;
+    z-index: -1;
+}
+
+/*-------Content Styling--------*/
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+}
+.textboxes{
+    position: relative;
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: 1em;
+}
+.nemskat{
+    font-size: 2em;
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.ballet{
+    font-size: 1.9em;
+    position: absolute;
+    top: 2.7em;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.hotels{
+    font-size: 2em;
+    position: absolute;
+    top: 9.9rem;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.linev{
+    position: relative;
+    top: 0.2rem;
+    z-index: -1;
+}
+.linew{
+    position: relative;
+    top: 1.9rem;
+    z-index: -1;
+}
+.linem{
+    position: relative;
+    top: 3.5rem;
+    z-index: -1;
+}
+/*-------Links--------*/
+
+.nemskat a{
+    color: #FFF2D7;
+    text-decoration: none;
+    z-index: +1;
+}
+.ballet a{
+    color: #FFF2D7;
+    text-decoration: none;
+    z-index: +1;
+}
+.hotels a{
+    color: #FFF2D7;
+    text-decoration: none;
+    z-index: +1;
+}
+
+/*-------Footer Styling--------*/
+
+.ufo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    object-fit: inherit;
+    padding-top: 21em;
+}
+.contact{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    position: relative;
+    left: 0%;
+    margin-top: -3rem;
+    padding-top: 4rem;
+}
+.mail{
+    font-family: 'Agency FB', arial;
+    position:relative;
+    font-size: 20px;
+    text-align: center;
+    margin-top: -8rem;
+    color: #FFF2D7;
+}
+.mailbox{
+    margin-top: -2rem;
+}
+.footer{
+    position: relative;
+    text-align: center;
+    color: #FFF2D7;
+    margin-top: -2em;
+}
+.footerlinks{
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: middle;
+}
+.ig{
+    width: auto;
+    height: 80%;
+    padding-top: 18px;
+}
+.fb{
+    display: block;
+    margin-top: 1rem;
+    width: auto;
+    height: 80%;
+    padding-top: 3px;
+}
+.li{
+    width: auto;
+    height: 80%;
+    padding-top: 18px;
+}
+
+/*-------Large Text--------*/
+
+.nemskatl{
+    display: none;
+}
+.balletl{
+    display: none;
+}
+.hotelsl{
+    display: none;
+}
+
+/*-------Large Images--------*/
+
+.largelines{
+    display: none;
+}
+.nemskatpic{
+    display: none;
+}
+.balletpic{
+    display: none;
+}
+.hotelspic{
+    display: none;
+}
+
+/*---------------------Media Query---------------------*/
+
+@media all and (min-width: 600px) {
+    body{
+        background-image: url("img/projectbg1.png");
+        background-repeat: no-repeat;
+    }
+    
+/*-------Top Styling MQ--------*/
+
+    .logo{
+        width: 5%;
+        padding-left: 13px;
+    }
+    h1{
+            padding-left: 15px;
+    }
+    .h1top{
+        padding-top: 5rem;
+    }
+    .largelines{
+        display: inline-block;
+        position: relative;
+        top: 7.3rem;
+        z-index: -1;
+    }
+        
+/*-------Content Styling MQ--------*/
+
+    .largecontent{
+        display: flex;
+        justify-content: space-around;
+        vertical-align: middle;
+        margin-left:3em;
+        margin-right:auto;
+    }
+    .blines{
+        display: none;
+    }
+    .nemskatpic{
+        display: inline-block;
+        position: relative;
+        top: 9rem;
+        margin-right: -8rem;
+        margin-left: -3rem;
+        bottom: 2rem;
+    }
+    .balletpic{
+        display: inline-block;
+        position: relative;
+        top: 9rem;
+        margin-left: 1.6rem;
+        padding-right: 4rem;
+        bottom: 2rem;
+    }
+    .hotelspic{
+        display: inline-block;
+        position: relative;
+        margin-top: 9.6rem;
+        margin-left: -11rem;
+        bottom: 0.5rem;
+    }
+            
+/*-------Text Styling MQ--------*/
+
+    .h1top{
+        font-size: 350%;
+    }
+    .nemskatl{
+        position: absolute;
+        display: inline-block;
+        color: #FFF2D7;
+        font-size: 3em;
+        text-align: center;
+        bottom: 14rem;
+        left: 16.5%;
+        transform: translate(-50%, -50%);
+    }
+    .balletl{
+        position: absolute;
+        display: inline-block;
+        color: #FFF2D7;
+        font-size: 3em;
+        text-align: center;
+        bottom: 14rem;
+        left: 48.9%;
+        transform: translate(-50%, -50%);
+    }
+    .hotelsl{
+        position: absolute;
+        display: inline-block;
+        color: #FFF2D7;
+        font-size: 3em;
+        text-align: center;
+        bottom: 13.8rem;
+        right: 5.6rem;
+        transform: translate(-50%, -50%);
+    }
+    .largecontent{
+        position: relative;
+        text-align: center;
+    }
+
+    /*-------Links MQ--------*/
+
+    .nemskatl a{
+        color: #FFF2D7;
+        text-decoration: none;
+    }
+    .balletl a{
+        color: #FFF2D7;
+        text-decoration: none;
+    }
+    .hotelsl a{
+        color: #FFF2D7;
+        text-decoration: none;
+    }
+            
+/*-------Content turned off MQ--------*/
+
+    .contentlines{
+        display: none;
+    }
+    .linem{
+        display: none;
+    }
+    .linev{
+        display: none;
+    }
+    .linew{
+        display: none;
+    }
+    .nemskat{
+        display: none;
+    }
+    .ballet{
+        display: none;
+    }
+    .hotels{
+        display: none;
+    }
+            
+/*-------Footer Styling MQ--------*/
+
+    .ufo{
+        display:none;
+    }
+    .contact{
+        font-size: 38px;
+        position: relative;
+        left: -10px;
+        padding-top: 5em;
+
+    }
+    .mail{
+        position: relative;
+        margin-top: -6em;
+        left: -10px;
+    }
+    .ig{
+        margin-left: -1.5rem;
+    }
+}

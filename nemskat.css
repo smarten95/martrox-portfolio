@@ -1,5 +1,5 @@
 body{
-    background-image: url("img/videobgm.png");
+    background-image: url("img/bg.png");
     overflow-x: hidden;
 }
 
@@ -32,41 +32,108 @@ h1{
 h2{
     font-family: 'Bebas Neue', cursive;
 }
-.player1{
+.h2text1{
+    font-family: 'Bebas Neue', cursive;
     position: relative;
-    size: 50%;
-}
-.player1large{
-    display: none;
-}
-.player2large{
-    display: none;
-}
-.player1mobile{
-    margin-bottom: 2rem;
-}
-.logosbottom{
-    display: flex;
-    justify-content: space-evenly;
-    vertical-align: middle;
-}
-.redlinetop{
-    display: none;
-}
-.redlinebottom{
-    display: none;
-}
-.bottomtext{
     text-align: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
     color: #FFF2D7;
+    font-size: 2.5em;
+    top: 4.5rem;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.h2text2{
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    text-align: center;
+    color: #FFF2D7;
+    font-size: 2.5em;
+    top: 3rem;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.scplayersp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    bottom: 1rem;
+    width:80%;
+    height:450px;
+}
+.scplayeran{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    bottom: 2.4rem;
+    width:80%;
+    height:450px;
+}
+.musiccontent{
+    position: relative;
+    top:2rem;
+}
+.infotext{
+    font-family: 'Bebas Neue', cursive;
+    position: relative;
+    text-align: center;
+    color: #FFF2D7;
+    font-size: 1.5em;
+    top: -5rem;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-50%, -50%);
+    color: #FFF2D7;
+}
+.ytlogo{
+    display: block;
+    width:62px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    right: 7.1rem;
+    top: 10.2rem;
+}
+.splogo{
+    display: block;
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    top: 6.5rem;
+}
+.sclogo{
+    display: block;
+    width: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-items: center;
+    top: 3.4rem;
+    left:6.8rem;
+}
+
+
+/*-------Links--------*/
+
+a{
+    cursor: pointer;
 }
 
 /*-------Footer Styling--------*/
-footer{
-    margin-top: 5rem;
-}
+
 .ufo{
     display: block;
     margin-left: auto;
@@ -80,6 +147,7 @@ footer{
     font-size: 30px;
     position: relative;
     left: 0%;
+    padding:0%;
     bottom: 1rem;
     z-index: -1;
 
@@ -91,6 +159,7 @@ footer{
     text-align: center;
     margin-top: -8rem;
     color: #FFF2D7;
+    z-index: +1;
 }
 .mailbox{
     margin-top: -2rem;
@@ -106,7 +175,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     vertical-align: middle;
-    padding-bottom: 1rem;
+
 }
 .ig{
     width: auto;
@@ -140,7 +209,7 @@ footer{
 
 @media all and (min-width: 600px) {
     body{
-        background-image: url("img/bgvideo.png");
+        background-image: url("img/bgmusic1.png");
         background-repeat: no-repeat;
     }
     
@@ -170,46 +239,23 @@ footer{
         justify-content: space-around;
         vertical-align: middle;
     }
-    .contentbox{
-        text-align: center;
-    }
     .blines{
         display: none;
     }
-    .ytplayers{
-        display: flex;
-        justify-content: space-evenly;
-        vertical-align: middle;
-    }
-    .player1{
-        size-adjust: 50em;
-    }
-    .player1large{
-        display: inline;
-    }
-    .player2large{
-        display: inline;
-    }
-    .bottomtext{
-        font-family: 'Bebas Neue', cursive;
-        position: relative;
+    .infotext{
         text-align: center;
-        color: #FFF2D7;
-        font-size: 2.5em;
-        top: 3rem;
-        left: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        transform: translate(-50%, -50%);
-        color: #FFF2D7;
+        font-size: 3rem;
+        left: 58rem;
+        top: -8rem;
     }
-    .redlinetop{
-        display: inline;
-        margin-bottom: 2rem;
+    .infobar{
+        padding-right: 1rem;
     }
-    .redlinebottom{
-        display: inline;
-        margin-top: 2.5rem;
+    .ytlogo{
+        right: 12rem;
+    }
+    .sclogo{
+        left: 12rem;
     }
             
 /*-------Text Styling MQ--------*/
@@ -223,17 +269,9 @@ footer{
     .blines{
         display: none;
     }
-    .player1mobile{
-        display: none;
-    }
-    .player2mobile{
-        display: none;
-    }
             
 /*-------Footer Styling MQ--------*/
-    footer{
-    margin-top: 5rem;
-    }
+
     .ufo{
         display:none;
     }
@@ -247,6 +285,7 @@ footer{
         position: relative;
         margin-top: -6em;
         left: -10px;
+        z-index: +1;
     }
     .ig{
         margin-left: -1.5rem;
