@@ -234,7 +234,7 @@ footer{
 
 @media all and (min-width: 600px) {
     body{
-        background-image: url("img/aboutbgl1.png");
+        background-image: url("img/aboutbgl.png");
         background-repeat: no-repeat;
     }
 
