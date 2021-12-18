@@ -1,0 +1,74 @@
+/*Baggrunden*/
+body{
+    background-image: url(img/hbbglong.png);
+    background-repeat: repeat-y;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Navigation*/
+.nav > ul{
+    background-color: rgb(8, 36, 68);
+    border: 2px solid rgb(224, 148, 52);
+    color: rgb(224, 148, 52);
+    list-style: none;
+    text-align: right;
+    padding: 50px 50px;
+}
+.nav > ul > li {
+    display: inline-block;
+    padding-right: 25px;
+    list-style: none;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.nav > ul > li > a{
+    text-decoration: none;
+    color: rgb(224, 148, 52);
+}
+.nav > ul > li > a:hover {
+    color: #c1c1c1;
+}
+.logo{
+    float: left;
+    padding-left: 25px 10%;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+/*Billeders placering på forsiden*/
+.leftsection {
+    float: left;
+    width: 24%;
+    display: inline;
+    margin: 3%;
+}
+.rightsection img {
+  float: left;
+  width: 63%;
+  display: inline;
+  margin: 3%;
+  border: 2px solid rgb(224, 148, 52);
+  height: 620px;
+}
+.rightsection {
+    position: relative;
+}
+
+/*Tekst på blikfangsbillede*/
+.info {
+    position: absolute;
+    top: 45px;
+    right: 100px;
+    color: rgb(224, 148, 52);
+  }
+
+/*Hover-effekt på links til venstre*/
+.hover1 img:hover {
+    background: #c1c1c12a
+}
+.hover2 img:hover {
+    background: #c1c1c12a
+}
