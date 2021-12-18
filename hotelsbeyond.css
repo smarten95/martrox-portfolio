@@ -1,5 +1,5 @@
 body{
-    background-image: url("img/bgnsm.png");
+    background-image: url("img/bgbbm.png");
     overflow-x: hidden;
 }
 
@@ -29,9 +29,6 @@ h1{
 
 /*-------Content Styling--------*/
 
-h2{
-    font-family: 'Bebas Neue', cursive;
-}
 p{
     font-family: 'Agency FB', arial;
 }
@@ -175,7 +172,7 @@ footer{
 
 @media all and (min-width: 600px) {
     body{
-        background-image: url("img/bgnsl.png");
+        background-image: url("img/bghbl.png");
         background-repeat: no-repeat;
     }
     
@@ -214,7 +211,7 @@ footer{
         height: auto;
     }
     .p1{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         padding-bottom: 2rem;
     }
     .p2{
@@ -225,9 +222,6 @@ footer{
     .xdpic{
         width: 100%;
         height: auto;
-    }
-    .cline2{
-        padding-bottom: 3rem;
     }
             
 /*-------Text Styling MQ--------*/
